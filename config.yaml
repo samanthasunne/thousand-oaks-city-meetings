@@ -9,20 +9,19 @@ properties:
     type: string
     format: uri
     description: The URL of the site to start scraping
-    default: https://www.ssa.gov/foia/readingroom.html
+    default: https://www.toaks.org/departments/city-clerk/agendas-minutes/minutes
   project:
     type: number
     description: >-
       The DocumentCloud project ID of the project the documents should be uploaded in to
-    default: 207338
+    default: 207399
   keywords:
     type: array
     items:
       type: string
     description: Keywords to search and notify on
     default:
-      - court
-      - foia
+      - technology
   filetypes:
     type: array
     items:
